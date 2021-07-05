@@ -1,0 +1,57 @@
+{
+  "name": "@wimdental/i18n",
+  "version": "1.0.5",
+  "description": "",
+  "main": "build/i18n/index.js",
+  "scripts": {
+    "build": "babel ./src --out-dir build",
+    "prepublish": "npm run build"
+  },
+  "author": {
+    "name": "WimDental",
+    "email": "developerswimdental@gmail.com",
+    "homepage": "http://wimdental.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "tern": "^0.21.0"
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wimdental/wimdental-i18n.git"
+  },
+  "keywords": [
+    "reactjs",
+    "react",
+    "redux",
+    "redux-utils",
+    "react-utils",
+    "react-redux-admin"
+  ],
+  "tags": [
+    "reactjs",
+    "redux",
+    "admin"
+  ],
+  "private": false
+}
